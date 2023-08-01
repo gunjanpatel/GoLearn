@@ -10,3 +10,13 @@ go run main.go
 ```shell
 go build main.go
 ```
+
+## Init Module
+```shell
+go mod init goLearn
+```
+
+## Get another package
+```shell
+go get github.com/gunjanpatel/calculator
+```
