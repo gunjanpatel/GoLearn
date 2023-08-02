@@ -6,6 +6,7 @@ import (
 
 func main() {
 	val := 0
+
 	defer func() {
 		handler := recover()
 
@@ -14,22 +15,10 @@ func main() {
 		}
 	}()
 
-	for {
-		fmt.Print("Enter number: ")
-		fmt.Scanf("%d", &val)
-
-		switch {
-		case val < 0:
-			panic("You entered a negative number!")
-		case val == 0:
-			fmt.Println("0 is neither negative nor positive")
-		default:
-			fmt.Println("You entered:", val)
-		}
-	}
+	validateNumber(val)
 }
 
-func find(val int) bool {
+func validateNumber(val int) bool {
 	for {
 		fmt.Println("Enter number: ")
 
