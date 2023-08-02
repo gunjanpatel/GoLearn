@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// Size of Array is ALWAYS fix
 	var manual [3]int
 
 	manual[1] = 10
