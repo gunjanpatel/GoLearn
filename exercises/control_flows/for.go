@@ -32,6 +32,15 @@ func sumOfExcludingMod5Numbers() {
 	fmt.Println("The sum of 1 to 100, but excluding numbers divisible by 5, is", sum)
 }
 
+// વિલંબિત - Deffered
+// મુલતવી રાખવું - Defer
+func deferred() {
+	for i := 1; i <= 4; i++ {
+		defer fmt.Println("deferred", -i)
+		fmt.Println("regular", i)
+	}
+}
+
 func main() {
 	var num int64
 	// Deprecated
