@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	log.SetPrefix("main(): ")
 	file, err := os.OpenFile("log/info.log", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
