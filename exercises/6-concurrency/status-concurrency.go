@@ -34,6 +34,8 @@ func main() {
 		go checkApi(endpoint)
 	}
 
+	time.Sleep(3 * time.Second)
+
 	elapsed := time.Since(start)
 
 	fmt.Printf("Done! It took %v seconds!\n", elapsed)
