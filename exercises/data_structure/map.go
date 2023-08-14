@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	//type age map[string]int16
+
 	// This won't work as we must have to init map with make to allow adding in it. Add doesn't work on "nil" map. However read and delete works on nil map. GO doesn't panic there.
 	// studentsAge := map[string]int
 	studentsAge := make(map[string]int)
