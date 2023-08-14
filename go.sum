@@ -2,6 +2,8 @@ github.com/coreos/go-systemd/v22 v22.5.0/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSV
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/gunjanpatel/calculator v0.1.0 h1:oKSYM8jEp9KM4WYaPStnrXy4W8ohvVD0yfxak6hMkGk=
 github.com/gunjanpatel/calculator v0.1.0/go.mod h1:P41zuuFaB4V6a7xQC4X9/0msuOO/86aV3hdN6AWQRsM=
+github.com/gunjanpatel/creditStore v0.1.1 h1:GgqhKsjAyLMk5n4fNvMHWFDB7U9YRz0K1skBWngfrO0=
+github.com/gunjanpatel/creditStore v0.1.1/go.mod h1:2zKoUd/RfEso6wcYUTq0RaL7HwUDaltsphoHli+xPy8=
 github.com/mattn/go-colorable v0.1.12/go.mod h1:u5H1YNBxpqRaxsYJYSkiCWKzEfiAb1Gb520KVy5xxl4=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
 github.com/mattn/go-colorable v0.1.13/go.mod h1:7S9/ev0klgBDR4GtXTXX8a3vIGJpMovkB8vQcUbaXHg=

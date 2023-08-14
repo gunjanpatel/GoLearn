@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/gunjanpatel/calculator v0.1.0
+	github.com/gunjanpatel/creditStore v0.1.1 // indirect
 	github.com/rs/zerolog v1.30.0
 	rsc.io/quote v1.5.2
 )
