@@ -36,3 +36,11 @@ func showInfo(s Shape) {
 	fmt.Println("Area:", s.Area())
 	fmt.Println("Perimeter:", s.Perimeter())
 }
+
+func main() {
+	var s Shape = Square{3}
+	showInfo(s)
+
+	t := Triangle{6}
+	showInfo(t)
+}
